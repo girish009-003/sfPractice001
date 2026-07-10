@@ -7,4 +7,12 @@
 
 string tempvar = 'Enter_your_name_here';
 System.debug('Hello World!');
-System.debug('My name is ' + tempvar);
+Map<String,Integer> students = New Map<String,Integer>();
+students.put('ram',50);
+students.put('sham',90);
+students.put('maxi',60);
+students.put('Jhon',40);
+students.put('Athur',80);
+
+
+StudentManager.run();
