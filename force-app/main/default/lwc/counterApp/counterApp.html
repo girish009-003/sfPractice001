@@ -1,0 +1,30 @@
+<template>
+    
+<div class="slds-grid slds-wrap">
+  <div class="slds-col slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-size_1-of-12">
+   <lightning-button 
+     variant="brand"
+     label="-" 
+     onclick={handleMinus} 
+   ></lightning-button>
+  </div>
+  <div class="slds-col slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-size_1-of-12">
+    {counter}
+  </div>
+  <div class="slds-col slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-size_1-of-12">
+      <lightning-button 
+     variant="brand"
+     label="+" 
+     onclick={handlePlus} 
+   ></lightning-button>
+  </div>
+  <div class="slds-col slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-size_1-of-12">
+         <lightning-button 
+     variant="brand"
+     label="reset" 
+     onclick={handleReset} 
+   ></lightning-button>
+  </div>
+</div>
+
+</template>
