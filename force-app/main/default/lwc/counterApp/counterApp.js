@@ -12,4 +12,8 @@ export default class CounterApp extends LightningElement {
             this.counter ++;
         
     }
+
+    handleReset(){
+        this.counter = 0;
+    }
 }
