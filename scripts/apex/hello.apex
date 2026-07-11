@@ -15,4 +15,6 @@ students.put('Jhon',40);
 students.put('Athur',80);
 
 
-StudentManager.run();
+
+
+System.debug(UserApi.getUsers());
