@@ -12,9 +12,5 @@ students.put('ram',50);
 students.put('sham',90);
 students.put('maxi',60);
 students.put('Jhon',40);
-students.put('Athur',80);
-
-
-
-
-System.debug(UserApi.getUsers());
+students.put('Athur',80)
+UserApi.createUser();
