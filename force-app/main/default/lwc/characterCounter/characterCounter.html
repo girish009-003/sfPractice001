@@ -1,0 +1,20 @@
+<template>
+    
+     <p>Current character count is {characterCount} of 100</p>
+    <lightning-textarea 
+      max-length="100"
+      message-when-too-long="Max allowed is 100 character"
+      name="inputName" 
+      label="Textarea field with a placeholder" 
+      placeholder="type here..."
+      onkeyup={handleChange}
+      value={value}
+      variant="standard"
+    ></lightning-textarea>
+    <lightning-button 
+      variant="brand"
+      label="clear Count" 
+      onclick={handleClear} 
+    ></lightning-button>
+
+</template>
