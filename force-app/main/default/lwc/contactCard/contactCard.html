@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Contact Card">
+        <p class="slds-p-horizontal_small"><strong>Name:</strong>{name}</p>
+        <p class="slds-p-horizontal_small"><strong>Email:</strong>{email}</p>
+        <p if:true={showNumber} class="slds-p-horizontal_small"><strong>Phone:</strong>{phone}</p>
+        <div slot="footer">
+            <lightning-button variant="brand" label={buttonMessage} onclick={toggleButton}></lightning-button>
+
+        </div>
+
+    </lightning-card>
+</template>
